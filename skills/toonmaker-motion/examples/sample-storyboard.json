@@ -1,0 +1,70 @@
+{
+  "meta": {
+    "title": "A Clear Explanation in Three Steps",
+    "duration": 18,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "language": "en"
+  },
+  "scenes": [
+    {
+      "id": "scene-01",
+      "start": 0,
+      "end": 5,
+      "purpose": "Introduce the problem of an explanation that feels confusing.",
+      "narration": "A complicated idea can feel difficult when every detail arrives at once.",
+      "onScreenText": ["Too much at once?"],
+      "visual": {
+        "composition": "A centered rounded interface panel contains several overlapping topic cards. A small illustrated guide sits at the edge and points toward the clutter, but remains visually secondary.",
+        "elements": ["main panel", "overlapping cards", "guide character accent"],
+        "palette": ["#17243A", "#F7F8FC", "#F6A94B"]
+      },
+      "motion": [
+        "Three cards enter with small staggered offsets and briefly overlap.",
+        "The guide character makes one short pointing gesture; the card group settles."
+      ],
+      "audio": "Narration over a quiet rhythmic music bed; one soft UI tick as the cards appear.",
+      "transitionOut": "The cards align into a clean horizontal sequence."
+    },
+    {
+      "id": "scene-02",
+      "start": 5,
+      "end": 12,
+      "purpose": "Show a three-stage explanation structure.",
+      "narration": "Start with the main question, show the idea with a clear visual, then end with one takeaway.",
+      "onScreenText": ["1. Question", "2. Visual", "3. Takeaway"],
+      "visual": {
+        "composition": "Three equal interface cards sit on a horizontal grid. Each card contains one large icon, a short title, and a connecting line that makes the order obvious.",
+        "elements": ["three cards", "number chips", "connecting line", "simple icons"],
+        "palette": ["#17243A", "#F7F8FC", "#54C7B0", "#F6A94B"]
+      },
+      "motion": [
+        "The connecting line draws from left to right.",
+        "Each card rises into place as its narration phrase begins.",
+        "The active card brightens while the other two remain visible."
+      ],
+      "audio": "A restrained UI tick accompanies each card entrance.",
+      "transitionOut": "The three cards compress into one summary panel."
+    },
+    {
+      "id": "scene-03",
+      "start": 12,
+      "end": 18,
+      "purpose": "Reinforce the method and close the explanation.",
+      "narration": "One question, one clear visual, and one memorable takeaway make the idea easier to follow.",
+      "onScreenText": ["Make the idea clear."],
+      "visual": {
+        "composition": "A large summary panel displays the three compact steps as a single organized row. The small guide character appears in a corner as a brief closing accent.",
+        "elements": ["summary panel", "three-step row", "guide character accent"],
+        "palette": ["#17243A", "#F7F8FC", "#54C7B0", "#F6A94B"]
+      },
+      "motion": [
+        "The summary panel settles with a subtle scale easing.",
+        "The final headline reveals and holds long enough to read."
+      ],
+      "audio": "Music resolves gently; narration ends before the final visual hold.",
+      "transitionOut": "Fade to the clean background over the final 250 ms."
+    }
+  ]
+}

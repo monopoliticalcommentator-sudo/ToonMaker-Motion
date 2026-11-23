@@ -1,0 +1,10 @@
+{
+  "name": "toonmaker-motion-starter",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "serve": "node scripts/serve.mjs",
+    "render-frames": "node scripts/render-frames.mjs"
+  }
+}

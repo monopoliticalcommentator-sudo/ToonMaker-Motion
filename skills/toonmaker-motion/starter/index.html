@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>ToonMaker Motion Starter</title>
+  <link rel="stylesheet" href="./src/styles.css">
+</head>
+<body>
+  <main class="preview-shell">
+    <div class="stage-frame" aria-label="Animation preview">
+      <canvas id="stage" width="1920" height="1080" aria-label="Video animation canvas"></canvas>
+    </div>
+    <div class="preview-controls">
+      <button id="play-toggle" type="button">Play</button>
+      <input id="scrubber" type="range" min="0" max="12" step="0.01" value="0" aria-label="Preview time">
+      <output id="time-readout">0.00 / 12.00 s</output>
+    </div>
+  </main>
+  <script type="module" src="./src/main.js"></script>
+</body>
+</html>

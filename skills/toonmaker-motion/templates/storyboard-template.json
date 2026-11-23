@@ -1,0 +1,31 @@
+{
+  "meta": {
+    "title": "Replace with the video title",
+    "duration": 10,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "language": "en"
+  },
+  "scenes": [
+    {
+      "id": "scene-01",
+      "start": 0,
+      "end": 10,
+      "purpose": "State the one thing this scene must communicate",
+      "narration": "Replace with the exact spoken narration.",
+      "onScreenText": ["Short headline", "Short supporting label"],
+      "visual": {
+        "composition": "Describe the layout, hierarchy, and focal point in concrete terms.",
+        "elements": ["main panel", "diagram", "icon"],
+        "palette": ["#18243A", "#F6F7FB", "#FFB547"]
+      },
+      "motion": [
+        "Describe the entrance, emphasis, and timing.",
+        "Describe the exit or handoff to the next scene."
+      ],
+      "audio": "Describe narration, music, and sound-effect cues.",
+      "transitionOut": "Describe the transition into the next scene or the final hold."
+    }
+  ]
+}
